@@ -1,0 +1,69 @@
+body {
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-tech-blue-geometric-gradient-light-background-backgroundblue-backgroundtechnology-background-image_49694.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+#cont1,
+#cont2 {
+  margin-left: auto;
+  margin-bottom: 40px;
+}
+label {
+  font-weight: bold;
+  font-size: medium;
+  margin-bottom: 5px;
+  margin-right: 130px;
+}
+#budget,
+#expinfo,
+#expamt {
+  width: 250px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+#addbug {
+  border: 2px solid darkgreen;
+  width: 400px;
+  padding: 10px;
+  box-shadow: 1px 1px 7px green;
+  margin-bottom: 10px;
+}
+#addexp {
+  border: 2px solid darkred;
+  width: 400px;
+  padding: 10px;
+  box-shadow: 1px 1px 7px red;
+  margin-bottom: 10px;
+}
+#cont1,
+#cont2 {
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#updatetable {
+  margin-left: auto;
+  margin-right: auto;
+}
+#result {
+  margin-left: auto;
+  margin-right: auto;
+}
+#init,
+td {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+#netres,
+td {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
